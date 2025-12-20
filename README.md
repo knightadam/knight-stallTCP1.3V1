@@ -81,7 +81,7 @@
 2.  **初始化表结构 (必做)**：
     *   进入刚才创建的数据库，点击 **控制台 (Console)** 标签。
     *   复制以下 SQL 代码粘贴到控制台并点击 **Execute (执行)**：
-    ```sql
+  ```sql
  1. 配置表：存储后台保存的设置 (TG Token, CF Key, 优选IP等)
 CREATE TABLE IF NOT EXISTS config (
     key TEXT PRIMARY KEY,
@@ -107,8 +107,7 @@ CREATE TABLE IF NOT EXISTS logs (
 CREATE TABLE IF NOT EXISTS stats (
     date TEXT PRIMARY KEY,
     count INTEGER DEFAULT 0
-);
-    ```
+);```
 
 
 ## 📂 代码版本说明
